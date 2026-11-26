@@ -106,7 +106,7 @@ log.append(f'keywords.csv: {kw.shape}, синонимов слито: {(kw.term_
 # Пока нет customs_clean.csv от Гузель — читаем таможню напрямую (тонны = 수출 중량), ТЗ 16.2.
 customs_clean = clean_path('customs_clean.csv')
 if customs_clean.exists():
-    cu = pd.read_csv(customs_clean, dtype={'month': str})[['month', 'iso2', 'tons', 'usd_k']]
+    cu = pd.read_csv(customs_clean, dtype={'month': str}, encoding='utf-8-sig')[['month', 'iso2', 'tons', 'usd_k']]
     customs_src = 'customs_clean.csv'
 else:
     c = pd.read_csv(raw_path('customs_HS3304_CIS_2015-01_2026-10.csv'), encoding='utf-8-sig')
