@@ -1,0 +1,75 @@
+source,geo,group,term,growth_2025_vs_2021,growth_2026_vs_2025,zero_share,enough_data,volume_2025,trend_year_pct,trend_p,trend24_year_pct,trend24_p,term_en,k_specific
+trends,BY,ingredient,pdrn,,6.5806,0.793,False,54,,,,,pdrn,0
+trends,BY,ingredient,азелаиновая кислота,4.3125,0.2937,0.122,True,170,42.458,0.0,26.2579,0.0,azelaic acid,0
+trends,BY,ingredient,ниацинамид,4.7234,-0.0852,0.159,True,269,58.7184,0.0,-4.1472,0.1112,niacinamide,0
+trends,BY,ingredient,ретинол,3.0933,0.1566,0.0,True,790,39.2993,0.0,14.1826,0.0,retinol,0
+trends,BY,ingredient,центелла,,1.6429,0.78,False,18,,,,,centella,0
+trends,KG,ingredient,pdrn,,13.7368,0.829,False,70,,,,,pdrn,0
+trends,KG,ingredient,азелаиновая кислота,3.7059,1.4576,0.634,False,160,,,,,azelaic acid,0
+trends,KG,ingredient,ниацинамид,,-0.0277,0.341,True,471,104.7922,0.0,-5.0358,0.1255,niacinamide,0
+trends,KG,ingredient,ретинол,4.7541,0.1593,0.159,True,702,69.0872,0.0,8.8538,0.1309,retinol,0
+trends,KG,ingredient,центелла,,-0.2667,0.537,False,341,,,,,centella,0
+trends,KZ,ingredient,pdrn,44.5,2.5,0.695,False,182,,,,,pdrn,0
+trends,KZ,ingredient,азелаиновая кислота,1.7547,0.8455,0.085,True,146,39.47,0.0,64.4067,0.0,azelaic acid,0
+trends,KZ,ingredient,ниацинамид,2.1,-0.1066,0.012,True,403,35.2895,0.0,-10.2421,0.0004,niacinamide,0
+trends,KZ,ingredient,ретинол,2.3086,0.0821,0.0,True,804,29.2846,0.0,5.8959,0.0002,retinol,0
+trends,KZ,ingredient,центелла,3.9706,0.2466,0.159,True,169,46.8156,0.0,16.1332,0.0115,centella,0
+trends,UZ,ingredient,pdrn,,6.0769,0.793,False,153,,,,,pdrn,0
+trends,UZ,ingredient,азелаиновая кислота,,13.3333,0.805,False,26,,,,,azelaic acid,0
+trends,UZ,ingredient,ниацинамид,,-0.0833,0.366,True,333,94.9131,0.0,0.216,0.9732,niacinamide,0
+trends,UZ,ingredient,ретинол,3.2957,0.1009,0.122,True,799,59.9153,0.0,12.1512,0.0136,retinol,0
+trends,UZ,ingredient,центелла,,-0.5172,0.841,False,97,,,,,centella,0
+wordstat,RU,brand,anua,37.401,1.2274,0.0,True,232403,141.1703,0.0,102.0047,0.0,anua,1
+wordstat,RU,brand,beauty of joseon,16.6063,0.4636,0.0,True,85954,97.908,0.0,51.6847,0.0,beauty of joseon,1
+wordstat,RU,brand,cosrx,-0.1543,-0.0053,0.0,True,117133,-2.9174,0.0057,0.6735,0.8897,cosrx,1
+wordstat,RU,brand,dr jart,-0.5517,-0.179,0.0,True,134119,-16.451,0.0,-17.3666,0.0013,dr jart,1
+wordstat,RU,brand,innisfree,-0.3159,-0.044,0.0,True,81009,-9.8151,0.0,-8.0116,0.1837,innisfree,1
+wordstat,RU,brand,laneige,-0.3785,0.0872,0.0,True,75031,-8.4535,0.0,6.9016,0.1331,laneige,1
+wordstat,RU,brand,manyo,0.053,-0.3417,0.0,True,134524,6.9845,0.225,-33.7232,0.0,manyo,1
+wordstat,RU,brand,medicube,686.4298,4.0377,0.0,True,235101,319.9956,0.0,505.078,0.0,medicube,1
+wordstat,RU,brand,missha,-0.4937,-0.1146,0.0,True,198550,-14.3305,0.0,-10.9741,0.0005,missha,1
+wordstat,RU,brand,numbuzin,566.0222,1.6443,0.232,True,25516,348.0598,0.0,161.0773,0.0,numbuzin,1
+wordstat,RU,brand,round lab,44.6952,0.1723,0.0,True,256076,147.0135,0.0,16.7643,0.0074,round lab,1
+wordstat,RU,brand,skin1004,17.6705,0.9147,0.0,True,97124,130.7314,0.0,76.2073,0.0,skin1004,1
+wordstat,RU,brand,some by mi,-0.5221,-0.0642,0.0,True,48428,-12.5019,0.0,-9.9453,0.0815,some by mi,1
+wordstat,RU,brand,tirtir,207.1636,0.3075,0.122,True,34347,270.687,0.0,52.6461,0.0,tirtir,1
+wordstat,RU,brand,torriden,33.4243,0.4667,0.11,True,25474,221.3956,0.0,42.1917,0.0,torriden,1
+wordstat,RU,category,bb крем,-0.3097,0.0053,0.0,True,367266,-6.873,0.0,-1.4007,0.8428,,0
+wordstat,RU,category,гидрофильное масло,-0.0538,-0.2278,0.0,True,742224,0.5417,0.8191,-22.3315,0.0,,0
+wordstat,RU,category,крем для лица,-0.1385,0.0984,0.0,True,6743274,0.4245,0.7855,8.4596,0.0436,,0
+wordstat,RU,category,кушон,-0.025,-0.1315,0.0,True,796067,-0.9805,0.7413,-15.0527,0.0153,,0
+wordstat,RU,category,патчи для глаз,-0.3916,-0.0294,0.0,True,725589,-9.957,0.0,-3.2157,0.4601,,0
+wordstat,RU,category,пенка для умывания,-0.1243,0.0697,0.0,True,1049544,-0.5865,0.689,4.3593,0.3304,,0
+wordstat,RU,category,пэды для лица,6.416,0.4089,0.0,True,70304,73.2024,0.0,43.5386,0.0,,0
+wordstat,RU,category,солнцезащитный крем,-0.0427,0.0088,0.0,True,1163115,6.6411,0.0152,4.1605,0.2899,,0
+wordstat,RU,category,сыворотка для лица,0.0575,0.0269,0.0,True,1724877,4.7845,0.0026,2.2535,0.5813,,0
+wordstat,RU,category,тинт для губ,0.254,-0.015,0.0,True,443264,6.899,0.0,0.5739,0.9209,,0
+wordstat,RU,category,тканевая маска,-0.2004,-0.1384,0.0,True,853719,-7.7663,0.0,-13.3277,0.0,,0
+wordstat,RU,category,тонер для лица,0.2773,0.2252,0.0,True,305091,8.7633,0.0,22.6098,0.0036,,0
+wordstat,RU,category,эссенция для лица,0.0694,-0.0491,0.0,True,83562,0.9484,0.32,-0.0507,0.9939,,0
+wordstat,RU,general,корейская косметика,-0.5593,-0.1334,0.0,True,1372364,-16.2687,0.0,-15.4008,0.0055,korean cosmetics,1
+wordstat,RU,ingredient,pdrn,6.5964,2.7856,0.0,True,584726,69.4636,0.0,308.563,0.0,pdrn,0
+wordstat,RU,ingredient,азелаиновая кислота,1.8117,0.5286,0.0,True,81483,47.3193,0.0,33.6755,0.0,azelaic acid,0
+wordstat,RU,ingredient,бакучиол,4.5047,0.3529,0.0,True,145236,59.2886,0.0,33.9917,0.0,bakuchiol,0
+wordstat,RU,ingredient,витамин с,0.1591,0.079,0.0,True,297678,7.4485,0.0,4.6093,0.1116,vitamin C,0
+wordstat,RU,ingredient,галактомисис,-0.6531,-0.1317,0.0,True,10550,-21.7979,0.0,-15.1846,0.052,galactomyces,0
+wordstat,RU,ingredient,гиалуроновая кислота,-0.4531,-0.0447,0.0,True,260097,-10.7127,0.0,-5.11,0.2456,hyaluronic acid,0
+wordstat,RU,ingredient,женьшень,-0.3562,0.0711,0.0,True,12874,-6.798,0.0,4.3961,0.5559,ginseng,0
+wordstat,RU,ingredient,керамиды,-0.2229,-0.0023,0.0,True,81580,-5.3116,0.0,-0.706,0.7907,ceramide,0
+wordstat,RU,ingredient,коллаген,-0.0777,-0.0229,0.0,True,324057,1.7491,0.3525,-2.6578,0.4952,collagen,0
+wordstat,RU,ingredient,мадекассосид,-0.7144,0.293,0.0,True,8708,-21.0745,0.0,22.0249,0.0,,0
+wordstat,RU,ingredient,муцин улитки,-0.6109,-0.169,0.0,True,133490,-18.7008,0.0,-17.9941,0.0,snail,0
+wordstat,RU,ingredient,ниацинамид,4.4307,0.2028,0.0,True,1467356,52.9637,0.0,18.4321,0.0,niacinamide,0
+wordstat,RU,ingredient,пантенол,0.1656,0.0294,0.0,True,86189,4.4057,0.0002,2.1036,0.6095,panthenol,0
+wordstat,RU,ingredient,пептиды,0.3772,0.2538,0.0,True,176441,14.6503,0.0,23.4766,0.0,peptide,0
+wordstat,RU,ingredient,полынь,-0.0254,-0.0593,0.0,True,4021,0.8152,0.7194,-10.2385,0.2143,mugwort,0
+wordstat,RU,ingredient,прополис,-0.4246,-0.2983,0.0,True,8092,-11.2894,0.0003,-30.1949,0.0,propolis,0
+wordstat,RU,ingredient,ретинол,1.5791,0.2378,0.0,True,716115,30.8297,0.0,21.0069,0.0,retinol,0
+wordstat,RU,ingredient,рис,-0.2265,0.1447,0.0,True,21446,-0.1273,0.9494,18.5502,0.0,rice,0
+wordstat,RU,ingredient,салициловая кислота,1.8299,0.1492,0.0,True,126844,26.2261,0.0,8.5177,0.0267,salicylic acid,0
+wordstat,RU,ingredient,спикулы,5.2528,0.4868,0.0,True,173121,48.23,0.0,71.387,0.0,spicule,0
+wordstat,RU,ingredient,транексамовая кислота,13.5803,1.1295,0.0,True,14799,94.4742,0.0,99.2537,0.0,tranexamic acid,0
+wordstat,RU,ingredient,хауттюйния,1.1911,-0.0413,0.0,True,36061,19.0058,0.0,-2.9953,0.3988,heartleaf,0
+wordstat,RU,ingredient,центелла,0.4825,0.2586,0.0,True,321410,15.5189,0.0,23.5709,0.0,centella,0
+wordstat,RU,ingredient,чайное дерево,-0.6281,-0.2364,0.0,True,19791,-18.7894,0.0,-25.6404,0.0,tea tree,0
+wordstat,RU,ingredient,экзосомы,,-0.1139,0.415,True,14349,335.7943,0.0,1.8025,0.8385,exosome,0
