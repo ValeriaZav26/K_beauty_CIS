@@ -95,19 +95,30 @@ def zero_share(s):
 
 
 # ---------------------------------------------------------------- сезонность
-def seasonal_index(s, months=None):
+def seasonal_ratio(s, months=None):
     """
-    Сезонный профиль ряда: среднее по календарному месяцу от (значение / среднее своего года) × 100.
-    100 = обычный месяц, 120 = на 20% выше среднего года.
-    s — Series с индексом 'YYYY-MM' (или передать months отдельно).
-    Берутся только полные годы (12 месяцев), чтобы неполный год не искажал профиль.
+    Отношение значения к центрированному скользящему среднему за 12 мес (2×12, стандарт для чётного окна):
+    ma = rolling(12, center=True).mean(); ma = (ma + ma.shift(-1)) / 2; ratio = s / ma.
+    Так в ТЗ (раздел 11) и в 01_market.ipynb (Гузель). Тренд убирается, остаётся сезонность.
+    s — Series с индексом 'YYYY-MM' (или передать months). Первые и последние 6 месяцев — NaN.
     """
     s = pd.Series(np.asarray(s, dtype=float), index=months if months is not None else s.index)
-    df = pd.DataFrame({'v': s.values, 'year': [m[:4] for m in s.index], 'mon': [int(m[5:7]) for m in s.index]})
-    full = df.groupby('year')['mon'].transform('size') == 12
-    df = df[full]
-    df['ratio'] = df['v'] / df.groupby('year')['v'].transform('mean') * 100
-    return df.groupby('mon')['ratio'].mean().rename('seasonal_index')
+    ma = s.rolling(12, center=True).mean()
+    ma = (ma + ma.shift(-1)) / 2
+    return s / ma
+
+
+def seasonal_index(s, months=None, start=None):
+    """
+    Сезонный профиль ряда: среднее seasonal_ratio по календарному месяцу (1…12).
+    1 = обычный месяц, 1.2 = на 20% выше уровня тренда. start='YYYY-MM' — брать отношения не раньше этого месяца
+    (Гузель для таможни берёт start='2017-01'). Центрированное среднее — только для описания, не для признаков моделей (ТЗ, раздел 6).
+    """
+    r = seasonal_ratio(s, months).dropna()
+    if start is not None:
+        r = r[r.index >= start]
+    mon = pd.Index([int(m[5:7]) for m in r.index], name='month_num')
+    return r.groupby(mon).mean().rename('seasonal_index')
 
 
 # ---------------------------------------------------------------- разбиение по времени

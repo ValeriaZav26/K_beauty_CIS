@@ -139,9 +139,9 @@ panel = cu.merge(gen, on=['iso2', 'month'], how='left').merge(br_wo, on=['iso2',
 panel['search_source'] = np.where(panel['iso2'] == 'RU', 'wordstat', 'trends')
 panel = panel.sort_values(['iso2', 'month']).reset_index(drop=True)
 for col in ['tons', 'search_general', 'search_brands']:
-    panel[f'{col}_yoy'] = panel.groupby('iso2')[col].transform(yoy_log)
+    panel[f'{col}_yoy_log'] = panel.groupby('iso2')[col].transform(yoy_log)
 for k in range(1, 7):
-    for col in ['search_general_yoy', 'search_brands_yoy']:
+    for col in ['search_general_yoy_log', 'search_brands_yoy_log']:
         panel[f'{col}_lag{k}'] = panel.groupby('iso2')[col].shift(k)
 panel = panel[panel['month'] >= SEARCH_START].reset_index(drop=True)   # 2019 нужен только для роста г/г
 panel.to_csv(clean_path('panel_search_export.csv'), index=False)

@@ -23,7 +23,7 @@ K_beauty_CIS/
 | calendar.csv | 144 (2015-01 … 2026-12) | month, m_dec, m_mar, m_nov, seollal, chuseok, post_2022, post_2025_10 | всем |
 | search_clean.csv | 7 462 (91 ряд × 82 мес., 2020-01 … 2026-10) | source, export_id, geo, term, group, month, value, zero_share | Лера (в. 4), Гузель (5б) |
 | keywords.csv | 62 | term_raw, term, group, k_specific, term_en, term_ko, source, dropped | Лера |
-| panel_search_export.csv | 410 (5 стран × 82 мес.) | iso2, month, tons, usd_k, search_general, search_brands, search_brands_medicube, search_source, рост г/г и лаги 1–6 | вопрос 2 |
+| panel_search_export.csv | 410 (5 стран × 82 мес.) | iso2, month, tons, usd_k, search_general, search_brands, search_brands_medicube, search_source, рост г/г в логарифмах (*_yoy_log) и лаги 1–6 | вопрос 2 |
 
 ### search_clean.csv — 91 ряд
 - `T01` — «корейская косметика», KZ / BY / KG / UZ на одной шкале (4 ряда)
@@ -45,14 +45,15 @@ K_beauty_CIS/
 ## panel_search_export.csv (вопрос 2)
 - Пока нет `customs_clean.csv` от Гузель, тонны берутся из сырой таможни (`수출 중량`). Когда Гузель положит `data/clean/customs_clean.csv`, просто запустить `build_B_clean.py` ещё раз — скрипт возьмёт её файл.
 - Россия: «корейская косметика» и сумма брендов из Вордстата; остальные страны — Google Trends (T01 и бренды). Шкалы разные → сравниваем только рост г/г, не уровни (колонка `search_source`).
-- `*_yoy` = log(x+1) − log(x₋₁₂+1). Рост поиска есть с 2021-01 (поиск начинается в 2020), поэтому первые 12 месяцев пустые — как в ТЗ («2020 уходит на рост г/г»).
+- `*_yoy_log` = log(x+1) − log(x₋₁₂+1) (рост в логарифмах; у Гузель в customs_clean.csv `tons_yoy` — рост в долях x/x₋₁₂ − 1, это другая величина). Рост поиска есть с 2021-01 (поиск начинается в 2020), поэтому первые 12 месяцев пустые — как в ТЗ («2020 уходит на рост г/г»).
 
 ## Функции utils.py
 | Функция | Что делает |
 |---|---|
 | `load_expanded(path, keys)` | индекс из файла _expanded, месяцы без строк → 0, конец 2026-10 |
 | `zero_share(s)` | доля месяцев с индексом ≤ 1 |
-| `seasonal_index(s)` | сезонный профиль: 100 = обычный месяц (только полные годы) |
+| `seasonal_ratio(s)` | значение ÷ центрированное скользящее среднее 2×12 (как в ТЗ и у Гузель) |
+| `seasonal_index(s, start)` | сезонный профиль: среднее seasonal_ratio по месяцам года, 1 = обычный месяц |
 | `time_split(df, train_end, test_start, gap)` | разбиение по времени; ошибка, если зазор меньше gap |
 | `yoy_log(s)` | рост год к году в логарифмах |
 | `load_calendar()` | читает calendar.csv |
