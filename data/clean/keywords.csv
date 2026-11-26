@@ -1,0 +1,63 @@
+term_raw,term,group,k_specific,term_en,term_ko,source,dropped
+anua,anua,brand,1,anua,아누아,"trends, wordstat",0
+ануа,anua,brand,1,anua,아누아,wordstat,0
+beauty of joseon,beauty of joseon,brand,1,beauty of joseon,조선미녀,"trends, wordstat",0
+cosrx,cosrx,brand,1,cosrx,코스알엑스,"trends, wordstat",0
+dr jart,dr jart,brand,1,dr jart,,wordstat,0
+innisfree,innisfree,brand,1,innisfree,,wordstat,0
+k_brands,k_brands,brand,1,k_brands,,trends,0
+laneige,laneige,brand,1,laneige,,wordstat,0
+manyo,manyo,brand,1,manyo,,wordstat,0
+medicube,medicube,brand,1,medicube,메디큐브,wordstat,0
+медикуб,medicube,brand,1,medicube,메디큐브,wordstat,0
+missha,missha,brand,1,missha,미샤,wordstat,0
+numbuzin,numbuzin,brand,1,numbuzin,,wordstat,0
+round lab,round lab,brand,1,round lab,라운드랩,"trends, wordstat",0
+skin1004,skin1004,brand,1,skin1004,스킨1004,wordstat,0
+some by mi,some by mi,brand,1,some by mi,,wordstat,0
+tirtir,tirtir,brand,1,tirtir,,wordstat,0
+torriden,torriden,brand,1,torriden,토리든,wordstat,0
+bb крем,bb крем,category,0,,,wordstat,0
+гидрофильное масло,гидрофильное масло,category,0,,,wordstat,0
+крем для лица,крем для лица,category,0,,,wordstat,0
+кушон,кушон,category,0,,,wordstat,0
+патчи для глаз,патчи для глаз,category,0,,,wordstat,0
+пенка для умывания,пенка для умывания,category,0,,,wordstat,0
+пэды для лица,пэды для лица,category,0,,,wordstat,0
+санскрин,солнцезащитный крем,category,0,,,wordstat,0
+солнцезащитный крем,солнцезащитный крем,category,0,,,wordstat,0
+сыворотка для лица,сыворотка для лица,category,0,,,wordstat,0
+тинт для губ,тинт для губ,category,0,,,wordstat,0
+тканевая маска,тканевая маска,category,0,,,wordstat,0
+тонер для лица,тонер для лица,category,0,,,wordstat,0
+эссенция для лица,эссенция для лица,category,0,,,wordstat,0
+корейская косметика,корейская косметика,general,1,korean cosmetics,,"trends, wordstat",0
+pdrn,pdrn,ingredient,0,pdrn,PDRN,"trends, wordstat",0
+пдрн,pdrn,ingredient,0,pdrn,PDRN,wordstat,0
+азелаиновая кислота,азелаиновая кислота,ingredient,0,azelaic acid,아젤라산,trends,0
+азелаиновая кислота для лица,азелаиновая кислота,ingredient,0,azelaic acid,아젤라산,wordstat,0
+бакучиол,бакучиол,ingredient,0,bakuchiol,바쿠치올,wordstat,0
+витамин с для лица,витамин с,ingredient,0,vitamin C,비타민C,wordstat,0
+галактомисис,галактомисис,ingredient,0,galactomyces,갈락토미세스,wordstat,0
+гиалуроновая кислота для лица,гиалуроновая кислота,ingredient,0,hyaluronic acid,히알루론산,wordstat,0
+женьшень для лица,женьшень,ingredient,0,ginseng,인삼,wordstat,0
+керамиды,керамиды,ingredient,0,ceramide,세라마이드,wordstat,0
+коллаген для лица,коллаген,ingredient,0,collagen,콜라겐,wordstat,0
+лосось днк,лосось днк,ingredient,0,,,wordstat,1
+мадекассосид,мадекассосид,ingredient,0,,,wordstat,0
+муцин улитки,муцин улитки,ingredient,0,snail,달팽이,wordstat,0
+ниацинамид,ниацинамид,ingredient,0,niacinamide,나이아신아마이드,"trends, wordstat",0
+пантенол для лица,пантенол,ingredient,0,panthenol,판테놀,wordstat,0
+пептиды для лица,пептиды,ingredient,0,peptide,펩타이드,wordstat,0
+полынь для лица,полынь,ingredient,0,mugwort,쑥,wordstat,0
+прополис для лица,прополис,ingredient,0,propolis,프로폴리스,wordstat,0
+ретинол,ретинол,ingredient,0,retinol,레티놀,trends,0
+ретинол для лица,ретинол,ingredient,0,retinol,레티놀,wordstat,0
+рис для лица,рис,ingredient,0,rice,쌀,wordstat,0
+салициловая кислота для лица,салициловая кислота,ingredient,0,salicylic acid,살리실산,wordstat,0
+спикулы,спикулы,ingredient,0,spicule,스피큘,wordstat,0
+транексамовая кислота для лица,транексамовая кислота,ingredient,0,tranexamic acid,트라넥삼산,wordstat,0
+хауттюйния,хауттюйния,ingredient,0,heartleaf,어성초,wordstat,0
+центелла,центелла,ingredient,0,centella,시카,"trends, wordstat",0
+чайное дерево для лица,чайное дерево,ingredient,0,tea tree,티트리,wordstat,0
+экзосомы для лица,экзосомы,ingredient,0,exosome,엑소좀,wordstat,0
